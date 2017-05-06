@@ -1,0 +1,16 @@
+{
+  "name": "watch-vtdecoder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "watch-vtdecoder.js",
+  "dependencies": {
+    "os-monitor": "^1.0.5",
+    "os-usage": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Carey",
+  "license": "ISC"
+}
