@@ -27,9 +27,9 @@ monitor.start({ delay: 3000 // interval in ms between monitor cycles
 //});
  
 // define handler for a too low free memory 
-monitor.on('freemem', function(event) {
-  console.log(event.type, 'Free memory is very low!');
-});
+//monitor.on('freemem', function(event) {
+//  console.log(event.type, 'Free memory is very low!');
+//});
  
 // define a throttled handler, using Underscore.js's throttle function (http://underscorejs.org/#throttle) 
 monitor.throttle('loadavg5', function(event) {
